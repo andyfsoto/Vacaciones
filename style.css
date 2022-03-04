@@ -188,20 +188,54 @@ width: 26rem;
     justify-content: center;
     padding-top: 12px;
 }
- /* Media queries */
+  /* Media queries */
     /* General */
-    @media (min-width:426px) {
+    @media (max-width:425px) {
         /*Index 1*/
-        #oak-embed{
-            display: none;
+        .banner{
+            width: 100%;
         }
-
-
-
-        
+        .recuadro-regresiva{
+            width: 100%;
+            
+        }
+        .map{
+            width: fit-content;
+        }
+        .responsive-regresivo{
+            display: none;
+            height: fit-content;
+        }
+        .recuadro-img{
+            display: grid;
+            height: fit-content;
+        }
         /*Index 2*/
+        .recuadro-mapas{
+            width: 100%;
+            display: grid;
+        }
+        .img-cole2y3 , .img-cole13y18 , .img-cole14y17{
+            display: grid;
+        }
+        .cole02 , .cole13 , .cole17{
+            padding-bottom: 15px;
+        }
+        .remises{
+            width: 100%;
+        }
+        .telefono-remises{
+            display: grid;
+        }
         /*Index 3*/
         .faro{
             width: 362px;
+        }
+        /*General*/
+        footer{
+            width: 100%;
+        }
+        .encabezado{
+            width: 100%;
         }
     }
