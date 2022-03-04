@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+}
+ /* Cabecera */
+.logo{
+    width: 100px;
+    padding: 7px 0 7px 7px;
+    height: 84px;
+}
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 0, 0 , 0.8);
+}
+.list-nav{
+    list-style: none;    
+    display: flex;
+    gap: 22px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    }
+    .item-nav{
+        text-decoration: none;
+        color: white;
+    }
+ /* Index 1 - Sección 1 */
+.banner{
+    margin: 10px 0px;
+    width: 100%;
+}
+.recuadro-regresiva{
+    background-color: rgb(0, 204, 170 , 0.5);
+    border-color: black;
+    padding: 25px;
+    margin-bottom: 10px;
+    display: grid;
+    width: 100%;
+}
+.regresiva{
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 22px;
+}
+.info-cole{
+    text-align: center;
+    padding-top: 13px;
+}
+.clima{
+    padding: 7px;
+}
+ /* Index 1 - Sección 2 */
+.recuadro-img{
+    background-color: rgb(224, 0, 64 , 0.5);
+    margin-bottom: 10px;
+    width: 100%;
+    height: 355px;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    border: double black;
+    padding: 5px;
+    margin: 10px;
+    height: fit-content;
+    text-align: center;
+}
+.img-transporte{
+    align-items: center;
+    width: 252px;
+}
+.card-text{
+    padding: 5px;
+}
+.img-comida{
+    width: 239px;
+    align-items: center;
+}
+.img-bingo{
+    align-items: center;
+    width: 233px;
+}
+ /* Index 2 - Sección 1 */
+ .recuadro-mapas{
+     background-color: rgb(185, 40, 226 , 0.5);
+     margin: 10px 0px;
+     display: flex;
+     text-align: center;
+     justify-content: space-around;
+     padding: 5px;
+     width: 100%;
+}
+ .titulo-camping , .titulo-cole , .titulo-lugares{
+     padding: 5px 0px;
+     font-size: 22px;
+}
+ .img-recorridos{
+     width: 8rem;
+}
+ .img-horarios{
+     width: 20rem;
+} 
+.colectivo{
+     display: grid;
+     margin: 1rem;
+}
+/* Index 2 - Sección 2 */
+.info-extracole{
+    background-color: rgb(255, 198, 10 , 0.5);
+    width: 100%;
+}
+.subtitulo{
+    padding: 5px;
+}
+.img-cole2y3{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.img-cole13y18{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.cole02 , .cole03 , .cole13 , .cole18 , .cole14 , .cole17{
+width: 26rem;
+}
+.img-cole14y17{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.remises{
+    background-color: rgb(0, 204, 170 , 0.5);
+    margin: 10px;
+}
+.telefono-remises{
+    display: flex;
+    justify-content: space-around;
+}
+/* Index 3 - Sección 1*/
+.lugares{
+    background-color: rgb(224, 0, 64 , 0.5);
+    margin: 10px 0px;
+    padding-bottom: 5px;
+}
+.instagram{
+    width: 9rem;
+}
+.faro{
+    width: 25rem;
+}
+.especifico-lugares{
+    display: grid;
+    border: double black;
+    padding: 5px;
+    margin: 10px;
+    height: fit-content;
+    text-align: center;
+}
+.bingo-especifico{
+    width: 135px;
+}
+/* Index 3 - Sección 2*/
+.chebolis{
+    background-color: rgb(0, 204, 170 , 0.5);
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 11px;
+    gap: 25px;
+}
+/* Pie de pagina */
+ footer{
+    background: rgb(0, 0, 0 , 0.8);
+    color: white;
+    display: flex;
+    padding: 12px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+ .footerlist{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+ /* Media queries */
+    /* General */
+    @media (min-width:426px) {
+        /*Index 1*/
+        #oak-embed{
+            display: none;
+        }
+
+
+
+        
+        /*Index 2*/
+        /*Index 3*/
+        .faro{
+            width: 362px;
+        }
+    }
